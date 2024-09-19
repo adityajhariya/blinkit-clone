@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    background-color: white;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(177, 176, 176, 0.281);
+}
+
+nav>div{
+    display: flex;
+    width: 95%;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-input{
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 40%;
+    background-color: rgba(212, 215, 218, 0.354);
+}
+.nav-input input{
+    width: 100%;
+    padding: 0.3rem;
+    border: none;
+    background-color:transparent;
+}
+.nav-input input:focus{
+    border: none;
+    outline: none;
+}
+.nav-input form{
+    width: 90%;
+}
+.nav-input span{
+    padding: 0.3rem;
+}
+.location-container{
+    font-size: 1.3rem;
+}
+.cart-button{
+    display: flex;
+    padding: 0.8rem 1rem;
+    background-color: rgb(44, 162, 44);
+    color: white;
+    border-radius: 5px;
+    gap: 0.4rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.login-button{
+    display: flex;
+    gap: 1rem;
+    
+}
+.login-button button{
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.image-template{
+    display: flex;
+    gap: 1rem;
+
+}
+.image-template img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.image-template2{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.image-template2 img{
+    width: 30%;
+}
+
+.image-template3 img{
+    width: 95px;
+}
+.image-template3{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    /* width: 90%; */
+    margin: 10px 40px;
+
+}
+
+.dairy-container{
+    width: 95%;
+    margin: auto;
+    padding: 1rem 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.image-template4{
+    width:95%;
+  margin:auto;
+  /* border:1px solid red; */
+  display: flex;
+  gap: 1rem;
+  overflow-x: scroll;
+}
+.image-template4::-webkit-scrollbar{
+    display: none;
+
+}
+
+.image_template_2{
+  width:15%;
+  display: flex;
+  flex-direction: column;
+border:1px solid rgb(232 232 232);
+padding: 0.5rem;
+
+}
+.template_img{
+width:150px;
+/* border:1px solid red; */
+}
+.template_img img{
+ width: 100%;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+    font-size: 12px;
+    margin-left:10px;
+}
+.about_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.aboutfirst_1{
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aboutfirst_2{
+    font-weight: 600;
+}
+
+.button_first button[type="button"]{
+    /* font-size: 16px; */
+    width:60px;
+    height: 30px;
+    background-color: rgb(0, 128, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.link-content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.Useful-link{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 1rem 0;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    width: 48;
+    padding: 1rem 0;
+}
+.link-content{
+    margin-top: 3rem;
+}
+.Useful-link p{
+    width: 100%;
+}
+
+.link-category-container{
+    width: 58%;
+}
+.link-category-container p{
+    font-weight: 600;
+}
+
+.Useful-link-container{
+    width: 58%;
+}
+.Useful-link-container p{
+    font-weight: 600;
+}
+
+.link-content ul li{
+    list-style: none;
+    cursor: pointer;
+    padding: 0.3rem 0;
+    color: rgb(154, 155, 157);
+}
+.last-container{
+    display: flex;
+    padding: 1rem 2rem 1rem;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: rgba(224, 221, 221, 0.165);
+    box-sizing: border-box;
+}
+.Download-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.Download-container a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.503);
+}
+
+.last-container img{
+    width: 100px;
+}
+.last-image-container img{
+    width: 41px;
+    border-radius: 50px;
+}
+.last-image-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.End-container{
+    padding: 1rem;
+    color: rgb(137, 139, 141);
+}
